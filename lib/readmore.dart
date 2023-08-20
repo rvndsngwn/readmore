@@ -67,7 +67,7 @@ class ReadMoreText extends StatefulWidget {
   final TextStyle? postDataTextStyle;
 
   ///Called when state change between expanded/compress
-  final Function(bool val)? callback;
+  final void Function(bool val)? callback;
 
   final ValueChanged<String>? onLinkPressed;
 
